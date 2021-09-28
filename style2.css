@@ -7,7 +7,8 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: bo;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body{
@@ -86,6 +87,31 @@ th,td {
     padding: 0.4rem;
 }
 
+footer{
+    text-align: center;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+.footer-list{
+    margin: 1rem;
+}
+
+a,img,li{
+    display: inline;
+    text-decoration: none;
+}
+
+img{
+    width: 40px;
+    padding: 0.2rem;
+    
+}
 
 
 
